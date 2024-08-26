@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+            Мой сайт
+        {% endblock %}
+    </title>
+</head>
+<body>
+<a href="/main/">Основная</a>
+<a href="/data/">Данные</a>
+{% block content %}
+    Мой сайт
+{% endblock %}
+</body>
+</html>
